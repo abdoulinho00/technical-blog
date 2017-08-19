@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorator="layout"
+      th:with="title=#{site.title}">
+<th:block layout:fragment="content">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h2>List of tasks</h2>
+        </div>
+        <div class="panel-body">
+            <ul class="list-group">
+                <li class="list-group-item">Create articles</li>
+                <li class="list-group-item">Supports languages</li>
+                <li class="list-group-item">Secure</li>
+                <li class="list-group-item">Neat design</li>
+                <li class="list-group-item">Supports audio and videos display</li>
+                <li class="list-group-item">Searchable and easy navigation</li>
+                <li class="list-group-item">SEO</li>
+            </ul>
+        </div>
+    </div>
+</th:block>
+</html>
